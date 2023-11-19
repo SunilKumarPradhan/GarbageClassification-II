@@ -34,7 +34,7 @@ PAGES = {
     "About The Project": app1
 }
 
-st.sidebar.title('garbAIge')
+st.sidebar.title('GreenGuardian: Garbage Classification ')
 selection = st.sidebar.radio("Navigate To", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
