@@ -4,7 +4,7 @@ import plotly.express as px
 from helpers import predictor
 
 def app():
-    st.write("# Project garbAIge")
+    st.write("# GreenGuardian: Garbage Classification")
 
     st.write("## Upload Image in .jpg format")
     uploaded_image = st.file_uploader("", type=["jpg"])
@@ -14,7 +14,7 @@ def app():
     if uploaded_image:
         st.image(uploaded_image)
 
-        button = st.button("Classify", key=None)
+        button = st.button("Classify Garbage", key=None)
 
         if button:
             prediction, predicted_class = predictor.predict(uploaded_image)
