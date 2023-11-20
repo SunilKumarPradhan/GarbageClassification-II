@@ -2,7 +2,7 @@ from pages import app1, app2
 import streamlit as st
 
 favicon = "images/favicon.ico"
-st.set_page_config(page_title="garbAIge", page_icon=favicon)
+st.set_page_config(page_title="Hacktivist", page_icon=favicon)
 
 
 def local_css(file_name):
